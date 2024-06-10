@@ -1,0 +1,14 @@
+{
+  "name": "your-vendor/your-package",
+  "description": "A sample PHP project",
+  "version": "1.0.0",
+  "require": {
+    "phpmailer/phpmailer": "^6.5"
+  },
+  "scripts": {
+    "post-install-cmd": [
+      "php -r \"echo 'Dependencies installed';\""
+    ],
+    "compose": "php -r \"echo 'Running custom composer script';\""
+  }
+}

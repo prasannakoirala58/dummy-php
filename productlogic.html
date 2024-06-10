@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Feedback</title>
+    <link rel="stylesheet" href="productlogic.css">
+    <!--font awesome-->
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet"href="https://use.fontawesome.com/releases/v5.5.0/css">
+
+    <!--css file link-->
+    <link rel="stylesheet" href="product.css">
+    
+    <!-- js file link-->
+    <script src="minorjs.js"></script>
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet"href="https://use.fontawesome.com/releases/v5.5.0/css">
+    <!--font awesome-->
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet"href="https://use.fontawesome.com/releases/v5.5.0/css">
+    
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet"href="https://use.fontawesome.com/releases/v5.5.0/css">
+
+    <!--css file link-->
+    <link rel="stylesheet" href="product.css">
+    <link rel="stylesheet" href="productlogic.css">
+    <!--font awesome-->
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet"href="https://use.fontawesome.com/releases/v5.5.0/css">
+
+    <!--css file link-->
+    <link rel="stylesheet" href="product.css">
+    
+    <!-- js file link-->
+    <script src="minorjs.js"></script>
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet"href="https://use.fontawesome.com/releases/v5.5.0/css">
+    <!--font awesome-->
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet"href="https://use.fontawesome.com/releases/v5.5.0/css">
+
+    <!--css file link-->
+    <link rel="stylesheet" href="product.css">
+    
+    <!-- js file link-->
+    <script src="minorjs.js"></script>
+    <link rel="stylesheet" href="productlogic.css">
+    <!--font awesome-->
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet"href="https://use.fontawesome.com/releases/v5.5.0/css">
+
+    <!--css file link-->
+    <link rel="stylesheet" href="product.css">
+    
+    <!-- js file link-->
+    <script src="minorjs.js"></script>
+
+    <!--css file link-->
+    <link rel="stylesheet" href="minorstyle.css">
+    
+    <!-- js file link-->
+    <script src="minorjs.js"></script>
+    
+    <!-- js file link-->
+    <script src="minorjs.js"></script>
+
+    <!--css file link-->
+    <link rel="stylesheet" href="contact.css">
+
+    <!--css file link-->
+    <link rel="stylesheet" href="product.css">
+    
+    <!-- js file link-->
+    <script src="minorjs.js"></script>
+    <link rel="stylesheet" href="productlogic.css">
+    <!--font awesome-->
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet"href="https://use.fontawesome.com/releases/v5.5.0/css">
+
+    <!--css file link-->
+    <link rel="stylesheet" href="product.css">
+    
+    <!-- js file link-->
+    <script src="minorjs.js"></script>
+
+    <!--css file link-->
+    <link rel="stylesheet" href="minorstyle.css">
+    
+    <!-- js file link-->
+    <script src="minorjs.js"></script>
+</head>
+<body>
+    <!-- Initial Prompt Popup -->
+    <div id="initialPopup" class="popup">
+        <div class="popup-content">
+            <p>Have you buy it?</p>
+            <button onclick="showForm('yes')">Yes</button>
+            <button onclick="showForm('no')">No</button>
+            <button onclick="showForm('willsoon')">Will Soon</button>
+        </div>
+    </div>
+
+    <!-- Yes Option Popup -->
+    <div id="yesPopup" class="popup">
+        <div class="popup-content">
+            <h3>Feedback Form</h3>
+            <label for="productName">Product Name:</label>
+            <input type="text" id="productName" name="productName"><br><br>
+            <label for="feedback">Feedback:</label><br>
+            <textarea id="feedback" name="feedback" rows="4" cols="50"></textarea><br><br>
+            <button onclick="closePopup()">Submit</button>
+        </div>
+    </div>
+
+    <!-- No Option Popup -->
+    <div id="noPopup" class="popup">
+        <div class="popup-content">
+        <button onclick="window.location.href='https://www.daraz.com.np/womens-clothing/'">Buy Now</button>
+
+         <button onclick="closePopup()">Close</button>
+        </div>
+
+    </div>
+
+    <!-- Will Soon Option Popup -->
+    <div id="willsoonPopup" class="popup">
+        <div class="popup-content">
+            <p>This product is amazing and offers great value for money. It has excellent features that will meet your needs and expectations. Stay tuned for more details!</p>
+            <button onclick="closePopup()">Close</button>
+        </div>
+    </div>
+
+    <script src="productlogic.js"></script>
+</body>
+</html>
