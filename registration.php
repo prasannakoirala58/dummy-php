@@ -17,7 +17,7 @@ if (isset($_SESSION["user"])) {
 <body>
 
     <div class="container">
-        <div></h2>Registration Form</h2></div>
+        <div></h2><b>Registration Form </b></h2></div>
     <?php
         if (isset($_POST["submit"])) {
            $name = $_POST["name"]; // Changed variable name from $fullName to $name

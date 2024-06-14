@@ -15,7 +15,7 @@ if (!isset($_SESSION["user"])) {
     <title>Home page</title>
 </head>
 <body>
-   
+   <div><h2>Welcome To Home page</h2></div>
         <a href="logout.php" class="btn btn-warning">Logout</a>
     </div>
     
