@@ -10,3 +10,5 @@ if ($con->connect_error) {
     die("Something went wrong: " . $con->connect_error);
 }
 ?>
+
+echo "Connected successfully";
