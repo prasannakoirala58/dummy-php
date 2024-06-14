@@ -18,8 +18,9 @@ function send_password_reset($get_name, $get_email, $token)
         $mail->isSMTP();
         $mail->Host       = 'smtp.gmail.com';
         $mail->SMTPAuth   = true;
-        $mail->Username   = 'prasanna2koirala@gmail.com';
-        $mail->Password   = 'kpio muqw wiyt hntd'; // Use an app-specific password if needed
+        $mail->Username   = 'dikshyak966@gmail.com';
+        // $mail->Password   = 'kpio muqw wiyt hntd'; // Use an app-specific password if needed
+        $mail->Password   = 'fqnz niqe nyzf fxdf'; // Use an app-specific password if needed
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
         $mail->Port       = 587;
 
